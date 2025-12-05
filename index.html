@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Yuraq Suma - Filtrantes naturales de la Selva Central del Perú. Infusiones florales con identidad cultural y sostenibilidad ambiental.">
+    <meta name="keywords" content="filtrantes naturales, infusiones, Junín, Satipo, café, cacao, sostenibilidad">
+    <title>Yuraq Suma - Filtrantes Naturales de la Selva Central</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- ========================================
+         HEADER & NAVIGATION
+         ======================================== -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <div class="nav__logo">
+                <span class="logo__icon">🌸</span>
+                <span class="logo__text">Yuraq Suma</span>
+            </div>
+            
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#hero" class="nav__link">Inicio</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">Nosotros</a></li>
+                    <li class="nav__item"><a href="#products" class="nav__link">Productos</a></li>
+                    <li class="nav__item"><a href="#sustainability" class="nav__link">Sostenibilidad</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contacto</a></li>
+                </ul>
+            </div>
+
+            <button class="nav__toggle" id="nav-toggle" aria-label="Toggle menu">
+                <span class="nav__toggle-icon"></span>
+            </button>
+        </nav>
+    </header>
+
+    <!-- ========================================
+         HERO SECTION
+         ======================================== -->
+    <section class="hero" id="hero">
+        <div class="hero__container container">
+            <div class="hero__content">
+                <span class="hero__subtitle" data-aos="fade-up">Desde la Selva Central del Perú</span>
+                <h1 class="hero__title" data-aos="fade-up" data-aos-delay="100">
+                    Filtrantes Naturales<br>
+                    <span class="hero__title-accent">Yuraq Suma</span>
+                </h1>
+                <p class="hero__description" data-aos="fade-up" data-aos-delay="200">
+                    Infusiones florales que combinan biodiversidad única, saberes ancestrales Asháninka y prácticas sostenibles de Satipo, Pangoa y Mazamari.
+                </p>
+                <div class="hero__buttons" data-aos="fade-up" data-aos-delay="300">
+                    <a href="#products" class="btn btn--primary">Descubre Nuestros Productos</a>
+                    <a href="#about" class="btn btn--secondary">Conoce Nuestra Historia</a>
+                </div>
+            </div>
+            <div class="hero__image" data-aos="fade-left" data-aos-delay="400">
+                <div class="hero__image-decoration"></div>
+            </div>
+        </div>
+        <div class="hero__scroll">
+            <a href="#about" class="scroll__link">
+                <span class="scroll__text">Descubre más</span>
+                <span class="scroll__icon">↓</span>
+            </a>
+        </div>
+    </section>
+
+    <!-- ========================================
+         ABOUT SECTION - MISIÓN & VISIÓN
+         ======================================== -->
+    <section class="about section" id="about">
+        <div class="container">
+            <div class="section__header" data-aos="fade-up">
+                <span class="section__subtitle">Quiénes Somos</span>
+                <h2 class="section__title">Nuestra Esencia</h2>
+            </div>
+
+            <div class="about__grid">
+                <div class="about__card mission" data-aos="fade-right">
+                    <div class="about__card-icon"></div>
+                    <h3 class="about__card-title">Misión</h3>
+                    <p class="about__card-text">
+                        Aprovechamos de forma sostenible la biodiversidad floral y aromática de la Selva Central, particularmente en Pangoa y Mazamari, para elaborar filtrantes naturales saludables que promuevan el bienestar físico y emocional.
+                    </p>
+                </div>
+
+                <div class="about__card vision" data-aos="fade-left">
+                    <div class="about__card-icon"></div>
+                    <h3 class="about__card-title">Visión</h3>
+                    <p class="about__card-text">
+                        Posicionarnos como marca líder de infusiones florales de la región Junín, integrando conocimiento ancestral Asháninka, prácticas agroecológicas y tecnologías modernas para consolidarnos como modelo de bioemprendimiento rural.
+                    </p>
+                </div>
+            </div>
+
+            <div class="about__stats">
+                <div class="stat" data-aos="zoom-in" data-aos-delay="100">
+                    <span class="stat__number" data-target="85000">0</span>
+                    <span class="stat__label">Hectáreas de Café en Junín</span>
+                </div>
+                <div class="stat" data-aos="zoom-in" data-aos-delay="200">
+                    <span class="stat__number" data-target="6">0</span>
+                    <span class="stat__label">Variedades de Flores</span>
+                </div>
+                <div class="stat" data-aos="zoom-in" data-aos-delay="300">
+                    <span class="stat__number" data-target="3">0</span>
+                    <span class="stat__label">Distritos Productores</span>
+                </div>
+                <div class="stat" data-aos="zoom-in" data-aos-delay="400">
+                    <span class="stat__number" data-target="100">0</span>
+                    <span class="stat__label">% Natural y Sostenible</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         PRODUCTS SECTION
+         ======================================== -->
+    <section class="products section" id="products">
+        <div class="container">
+            <div class="section__header" data-aos="fade-up">
+                <span class="section__subtitle">Nuestras Infusiones</span>
+                <h2 class="section__title">Portafolio de Productos</h2>
+                <p class="section__description">
+                    Cada infusión cuenta una historia única de la Selva Central, combinando flores y hierbas con propiedades terapéuticas comprobadas.
+                </p>
+            </div>
+
+            <div class="products__grid">
+                <!-- Flor de Café -->
+                <article class="product__card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="product__image">
+                        <div class="product__badge">Estrella</div>
+                        <img src="/assets/Flor-café.webp" alt="" srcset="">
+                    </div>
+                    <div class="product__content">
+                        <h3 class="product__name">Flor de Café</h3>
+                        <p class="product__botanical">Coffea arabica L.</p>
+                        <p class="product__description">
+                            Aroma intenso y dulce similar al jazmín. Relajante natural con propiedades antioxidantes de los cafetales de Pangoa y Satipo.
+                        </p>
+                        <div class="product__benefits">
+                            <span class="benefit">Relajante</span>
+                            <span class="benefit">Antioxidante</span>
+                            <span class="benefit">Digestivo</span>
+                        </div>
+                        <button class="btn btn--outline product__btn" data-product="cafe">Más Información</button>
+                    </div>
+                </article>
+
+                <!-- Flor de Cacao -->
+                <article class="product__card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="product__image">
+                        <div class="product__badge">Premium</div>
+
+                    </div>
+                    <div class="product__content">
+                        <h3 class="product__name">Flor de Cacao</h3>
+                        <p class="product__botanical">Theobroma cacao L.</p>
+                        <p class="product__description">
+                            Sabor suave con reminiscencias de cacao. Infusión única de flores que emergen directamente del tronco (caulifloria).
+                        </p>
+                        <div class="product__benefits">
+                            <span class="benefit">Mejora el ánimo</span>
+                            <span class="benefit">Antioxidante</span>
+                            <span class="benefit">Único</span>
+                        </div>
+                        <button class="btn btn--outline product__btn" data-product="cacao">Más Información</button>
+                    </div>
+                </article>
+
+                <!-- Flor de Añujo -->
+                <article class="product__card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="product__image">
+                        <div class="product__badge">Ancestral</div>
+                        
+                    </div>
+                    <div class="product__content">
+                        <h3 class="product__name">Flor de Añujo</h3>
+                        <p class="product__botanical">Justicia pectoralis</p>
+                        <p class="product__description">
+                            Planta ceremonial Asháninka. Sabor equilibrado y herbal con efectos calmantes y beneficios respiratorios tradicionales.
+                        </p>
+                        <div class="product__benefits">
+                            <span class="benefit">Calmante</span>
+                            <span class="benefit">Ancestral</span>
+                            <span class="benefit">Respiratorio</span>
+                        </div>
+                        <button class="btn btn--outline product__btn" data-product="anujo">Más Información</button>
+                    </div>
+                </article>
+
+                <!-- Hierba Luisa -->
+                <article class="product__card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="product__image">
+                        <img src="/assets/hierba-luisa.jpg" alt="">
+                    </div>
+                    <div class="product__content">
+                        <h3 class="product__name">Hierba Luisa</h3>
+                        <p class="product__botanical">Aloysia citrodora</p>
+                        <p class="product__description">
+                            Intenso aroma cítrico a limón. Refrescante natural con propiedades digestivas y calmantes reconocidas.
+                        </p>
+                        <div class="product__benefits">
+                            <span class="benefit">Digestivo</span>
+                            <span class="benefit">Refrescante</span>
+                            <span class="benefit">Calmante</span>
+                        </div>
+                        <button class="btn btn--outline product__btn" data-product="hierba-luisa">Más Información</button>
+                    </div>
+                </article>
+
+                <!-- Toronjil -->
+                <article class="product__card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="product__image">
+                        <img src="/assets/toronjil.jpg" alt="">
+                    </div>
+                    <div class="product__content">
+                        <h3 class="product__name">Toronjil</h3>
+                        <p class="product__botanical">Melissa officinalis</p>
+                        <p class="product__description">
+                            Delicado sabor cítrico. Mejora la calidad del sueño y aporta calma natural. Cultivado en las zonas altas de Mazamari.
+                        </p>
+                        <div class="product__benefits">
+                            <span class="benefit">Mejora el sueño</span>
+                            <span class="benefit">Neuroprotector</span>
+                            <span class="benefit">Digestivo</span>
+                        </div>
+                        <button class="btn btn--outline product__btn" data-product="toronjil">Más Información</button>
+                    </div>
+                </article>
+
+                <!-- Flor de Naranjo -->
+                <article class="product__card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="product__image">  </div>
+                    <div class="product__content">
+                        <h3 class="product__name">Flor de Naranjo</h3>
+                        <p class="product__botanical">Citrus aurantium</p>
+                        <p class="product__description">
+                            Dulce y intensamente floral. Sedante natural tradicional conocido como azahar. Inductor del sueño suave y efectivo.
+                        </p>
+                        <div class="product__benefits">
+                            <span class="benefit">Sedante</span>
+                            <span class="benefit">Ansiolítico</span>
+                            <span class="benefit">Inductor del sueño</span>
+                        </div>
+                        <button class="btn btn--outline product__btn" data-product="naranjo">Más Información</button>
+                    </div>
+                </article>
+            </div>
+
+            <!-- Blends Especiales -->
+            <div class="blends">
+                <h3 class="blends__title" data-aos="fade-up">Blends Exclusivos</h3>
+                <div class="blends__grid">
+                    <div class="blend__card" data-aos="flip-left" data-aos-delay="100">
+                        <h4 class="blend__name">☕ Cafetal en Flor</h4>
+                        <p class="blend__composition">Flor de Café + Hierba Luisa</p>
+                        <p class="blend__description">Evoca el aroma de un cafetal en plena floración</p>
+                    </div>
+                    <div class="blend__card" data-aos="flip-left" data-aos-delay="200">
+                        <h4 class="blend__name">🌿 Amazonía Relajante</h4>
+                        <p class="blend__composition">Flor de Añujo + Toronjil + Menta</p>
+                        <p class="blend__description">Potente infusión para la calma profunda</p>
+                    </div>
+                    <div class="blend__card" data-aos="flip-left" data-aos-delay="300">
+                        <h4 class="blend__name">🍫 Chocolate & Flores</h4>
+                        <p class="blend__composition">Flor de Cacao + Vaina tostada</p>
+                        <p class="blend__description">Experiencia profunda y gourmet única</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         SUSTAINABILITY SECTION
+         ======================================== -->
+    <section class="sustainability section" id="sustainability">
+        <div class="container">
+            <div class="section__header" data-aos="fade-up">
+                <span class="section__subtitle">Nuestro Compromiso</span>
+                <h2 class="section__title">Sostenibilidad Integral</h2>
+            </div>
+
+            <div class="sustainability__content">
+                <div class="sustainability__grid">
+                    <div class="sustainability__card" data-aos="fade-right" data-aos-delay="100">
+                        <div class="sustainability__icon">🌍</div>
+                        <h3 class="sustainability__title">Impacto Ambiental</h3>
+                        <p class="sustainability__text">
+                            Promovemos la conservación de especies florales nativas mediante reforestación y uso responsable. Empaques biodegradables y recolección sostenible.
+                        </p>
+                    </div>
+
+                    <div class="sustainability__card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="sustainability__icon">👥</div>
+                        <h3 class="sustainability__title">Impacto Social</h3>
+                        <p class="sustainability__text">
+                            Generamos empleo local y valor agregado. Creamos oportunidades especialmente para mujeres rurales y rescatamos saberes ancestrales Asháninka.
+                        </p>
+                    </div>
+
+                    <div class="sustainability__card" data-aos="fade-left" data-aos-delay="300">
+                        <div class="sustainability__icon">💼</div>
+                        <h3 class="sustainability__title">Impacto Económico</h3>
+                        <p class="sustainability__text">
+                            Aprovechamos biomasa desaprovechada de cafetales y cacaotales, generando ingresos adicionales para productores sin afectar producción principal.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="sustainability__features" data-aos="fade-up">
+                    <h3 class="features__title">Prácticas Sostenibles</h3>
+                    <div class="features__grid">
+                        <div class="feature">
+                            <span class="feature__icon">✓</span>
+                            <span class="feature__text">Agroforestería certificada</span>
+                        </div>
+                        <div class="feature">
+                            <span class="feature__icon">✓</span>
+                            <span class="feature__text">Liofilización de vanguardia</span>
+                        </div>
+                        <div class="feature">
+                            <span class="feature__icon">✓</span>
+                            <span class="feature__text">Certificación de inocuidad</span>
+                        </div>
+                        <div class="feature">
+                            <span class="feature__icon">✓</span>
+                            <span class="feature__text">Trazabilidad completa</span>
+                        </div>
+                        <div class="feature">
+                            <span class="feature__icon">✓</span>
+                            <span class="feature__text">Economía circular</span>
+                        </div>
+                        <div class="feature">
+                            <span class="feature__icon">✓</span>
+                            <span class="feature__text">Asesoría etnobotánica</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         VALUE PROPOSITION SECTION
+         ======================================== -->
+    <section class="value section">
+        <div class="container">
+            <div class="section__header" data-aos="fade-up">
+                <span class="section__subtitle">Por Qué Elegirnos</span>
+                <h2 class="section__title">Nuestra Propuesta Única</h2>
+            </div>
+
+            <div class="value__grid">
+                <div class="value__card" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="value__number">01</div>
+                    <h3 class="value__title">Exclusividad y Descubrimiento</h3>
+                    <p class="value__text">Acceso a flores únicas de la Selva Central que no encontrarás en ningún otro lugar</p>
+                </div>
+
+                <div class="value__card" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="value__number">02</div>
+                    <h3 class="value__title">Conexión con el Origen</h3>
+                    <p class="value__text">Cada infusión cuenta la historia de Satipo, Pangoa y Mazamari</p>
+                </div>
+
+                <div class="value__card" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="value__number">03</div>
+                    <h3 class="value__title">Bienestar Respaldado</h3>
+                    <p class="value__text">Beneficios terapéuticos avalados por tradición ancestral y ciencia moderna</p>
+                </div>
+
+                <div class="value__card" data-aos="zoom-in" data-aos-delay="400">
+                    <div class="value__number">04</div>
+                    <h3 class="value__title">Impacto Directo</h3>
+                    <p class="value__text">Tu compra genera impacto real en comunidades rurales y el medio ambiente</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         CONTACT SECTION
+         ======================================== -->
+    <section class="contact section" id="contact">
+        <div class="container">
+            <div class="section__header" data-aos="fade-up">
+                <span class="section__subtitle">Conecta con Nosotros</span>
+                <h2 class="section__title">Contáctanos</h2>
+            </div>
+
+            <div class="contact__container">
+                <div class="contact__info" data-aos="fade-right">
+                    <h3 class="contact__info-title">Información de Contacto</h3>
+                    <div class="contact__details">
+                        <div class="contact__item">
+                            <span class="contact__icon">📍</span>
+                            <div>
+                                <h4>Ubicación</h4>
+                                <p>Provincia de Satipo, Región Junín<br>Perú</p>
+                            </div>
+                        </div>
+                        <div class="contact__item">
+                            <span class="contact__icon">📧</span>
+                            <div>
+                                <h4>Email</h4>
+                                <p>contacto@yuraqsuma.com</p>
+                            </div>
+                        </div>
+                        <div class="contact__item">
+                            <span class="contact__icon">📱</span>
+                            <div>
+                                <h4>Teléfono</h4>
+                                <p>+51 999 888 777</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact__social">
+                        <h4>Síguenos</h4>
+                        <div class="social__links">
+                            <a href="#" class="social__link" aria-label="Facebook">📘</a>
+                            <a href="#" class="social__link" aria-label="Instagram">📷</a>
+                            <a href="#" class="social__link" aria-label="WhatsApp">💬</a>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="contact__form" id="contact-form" data-aos="fade-left">
+                    <div class="form__group">
+                        <label for="name" class="form__label">Nombre Completo</label>
+                        <input type="text" id="name" name="name" class="form__input" required>
+                    </div>
+                    <div class="form__group">
+                        <label for="email" class="form__label">Correo Electrónico</label>
+                        <input type="email" id="email" name="email" class="form__input" required>
+                    </div>
+                    <div class="form__group">
+                        <label for="subject" class="form__label">Asunto</label>
+                        <input type="text" id="subject" name="subject" class="form__input" required>
+                    </div>
+                    <div class="form__group">
+                        <label for="message" class="form__label">Mensaje</label>
+                        <textarea id="message" name="message" class="form__textarea" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn--primary btn--full">Enviar Mensaje</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         FOOTER
+         ======================================== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__section">
+                    <div class="footer__logo">
+                        <span class="logo__icon">🌸</span>
+                        <span class="logo__text">Yuraq Suma</span>
+                    </div>
+                    <p class="footer__description">
+                        Filtrantes naturales de la Selva Central del Perú. Biodiversidad, tradición y sostenibilidad en cada taza.
+                    </p>
+                </div>
+
+                <div class="footer__section">
+                    <h4 class="footer__title">Enlaces Rápidos</h4>
+                    <ul class="footer__links">
+                        <li><a href="#about">Nosotros</a></li>
+                        <li><a href="#products">Productos</a></li>
+                        <li><a href="#sustainability">Sostenibilidad</a></li>
+                        <li><a href="#contact">Contacto</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__section">
+                    <h4 class="footer__title">Productos</h4>
+                    <ul class="footer__links">
+                        <li><a href="#products">Flor de Café</a></li>
+                        <li><a href="#products">Flor de Cacao</a></li>
+                        <li><a href="#products">Flor de Añujo</a></li>
+                        <li><a href="#products">Blends Exclusivos</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__section">
+                    <h4 class="footer__title">Región Junín</h4>
+                    <ul class="footer__links">
+                        <li>Satipo</li>
+                        <li>Pangoa</li>
+                        <li>Mazamari</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer__bottom">
+                <p>&copy; 2025 Yuraq Suma. Todos los derechos reservados.</p>
+                <p>Desarrollado con 💚 para la Selva Central del Perú</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Product Modal -->
+    <div class="modal" id="product-modal">
+        <div class="modal__content">
+            <button class="modal__close" id="modal-close">&times;</button>
+            <div class="modal__body" id="modal-body">
+                <!-- Content will be injected by JavaScript -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Scroll to top button -->
+    <button class="scroll-top" id="scroll-top" aria-label="Scroll to top">
+        ↑
+    </button>
+
+    <script src="app.js"></script>
+</body>
+</html>
