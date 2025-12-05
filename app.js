@@ -65,7 +65,7 @@
      scientific: 'OMS (2020) reconoce componentes bioactivos del cacao'
    },
    anujo: {
-     name: 'Flor de Añujo',
+     name: 'Flor de Hinojo',
      botanical: 'Justicia pectoralis Jacq.',
      icon: '🌿',
      family: 'Acanthaceae',
